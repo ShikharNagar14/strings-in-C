@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<string.h>
+char* concat(char s1[],char s2[],int n){
+    int i;
+    for(i=0;s1[i]!='\0';i++)
+for(int j=0;j<n&& s2[j]!='\0';j++){
+    s1[i]=s2[j];
+    i++;
+
+}
+s2[i]='\0';
+return s1;
+
+}
+int main(){
+    char s1[50]="LPU";
+    char s2[50]="PUNJAB";
+    printf("%s\n",s1);
+    printf("%s\n",concat(s1,s2,12));
+}
+
+
+#include<stdio.h>
+#include<string.h>
+
+
+
+int main(){
+    char s1[]="Shikhar";
+    printf("%s\n",s1);
+    for(int i=0;s1[i]!='\0';i++){
+        if(s1[i]>='a'&&s1[i]<='z'){
+            s1[i]=s1[i]-32;
+        }
+    }
+    printf("%s\n",s1);
+    
+}
