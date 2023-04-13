@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+
+    char s1[50] = "GeeksforGeeks";
+    char s2[50];
+    int i = 0;
+    int l = strlen(s1) - 1;
+    while (s1[i] != '\0')
+    {
+        s2[i] = s1[l];
+        i++;
+        l--;
+    }
+    s2[i] = '\0';
+    printf("main string is %s\n", s1);
+    printf("main string which is reversed is %s\n", s2);
+}
+
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char s1[]="raman";
+    char s2[]="rama";
+  // printf("%d",strncmp(s1,s2,4));
+    int x=strncmp(s1,s2,strlen(s2));
+    if(x==0)
+    {
+        printf("%s is a prefix of %s",s2,s1);
+
+    }
+    else{
+        printf("%s is not a prefix of %s",s2,s1);
+        }
+
+
+}
