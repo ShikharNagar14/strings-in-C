@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+// String tokenization in C language
+//  we have a string in which we have seprators like hyphen(-) and space( )
+//  char sep[]=""; Not constant
+//  char *sep="-" constant
+// int main(){
+//     char str[]="12-11-2023";
+//     // char *sep="-";
+//     char *token=strtok(str,"-"); // we can also pass multiple seprators
+//     printf("%s ",token);
+//     token=strtok('\0',"-");
+//     printf("%s",token);
+// }
+
+// int main(){
+//     char str[]="12-11-2023";
+//     char *token=strtok(str,"-");
+//     while(token){
+//         printf("%s ",token);
+//         token=strtok('\0',"-");
+//     }
+
+// }
