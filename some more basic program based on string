@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+//  if a text is at multiple places then the it will return multiple indexes
+// int main()
+// {
+//     char text[] = "ShikharShikhar";
+//     char pat[] = "Shik";
+//     char *p = strstr(text, pat); // it will return a pointer variable
+
+//        if (p)
+//        {
+//            printf("%d", p - text);
+//        }
+//        else
+//        {
+//            printf("pattern is not present");
+//        }
+//     char *p1=strstr(p+1,pat);
+//     if(p1){
+//         printf("%d",p-text);
+//     }
+//     else{
+//         printf("Not present");
+//     }
+// }
+
+// int main(){
+//     char text[]="ShikharShikhar";
+//     char pat[]="shi";
+//     char *p=strstr(text,pat);
+//     if(p=='\0'){
+//         printf("Not present");
+//     }
+//     while(p){
+//         printf("%d\n",p-text);
+//         p=strstr(p+1,pat);
+
+//     }
+// }
