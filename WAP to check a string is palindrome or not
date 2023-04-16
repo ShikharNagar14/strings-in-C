@@ -1,0 +1,20 @@
+#include<stdio.>
+#include<string.h>
+#include<stdlib.h>
+// int main()
+// {
+//     char str[] = "NAMAN";
+//     int i=0;
+//     int j=strlen(str)-1;
+//     while(i<j){
+//        if( str[i]!=str[j]){
+//         printf("Not palindrome");
+//         exit(0);
+//        }
+//        i++;
+//        j--;
+
+//     }
+//     printf("It is palindrome");
+
+// }
